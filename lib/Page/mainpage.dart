@@ -15,7 +15,7 @@ class MainHome extends StatelessWidget {
         children: [
           ListTile(
             title: Text(
-                '김용민'
+                '김승규'
             ),
             onTap: (){
               Get.to(() => PersonPage() , arguments: {
